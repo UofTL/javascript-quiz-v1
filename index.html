@@ -26,8 +26,12 @@
                 <h1>JavaScript Timed Quiz</h1><br>
                 <h5>
                     <p>You have 120 seconds to answer the following questions on JavaScript<br></h5>
-                <b><i>Quiz Rule:</i> <br>
-                    </b>Each incorrect answer will deduct the time by 10 seconds</p> <br>
+                <b><i>Quiz Rules:</i> <br>
+                    <ol>1. Each incorrect answer will deduct the time by 10 seconds</ol>
+                    <ol>2. Once you select your answer, it can't be undone</ol>
+                    <ol>3. You will get points based on correct answers and time</ol>
+                    <ol>4. To many error will give you a negative score</ol>
+                    
                 <button type="button" id="startBtn" class="btn btn-info btn-lg">Start The Quiz</button>
             </div>
         </div>
@@ -39,10 +43,10 @@
             <div class="col-10 col-lg-8" id="QA-block">
                 <h3 id="questions" class="mb-4">Questions</h3>
                 <ul id="answers" class="list-unstyled">
-                    <li class="answerChoice">A</li>
-                    <li class="answerChoice">B</li>
-                    <li class="answerChoice">C</li>
-                    <li class="answerChoice">D</li>
+                    <li class="answerChoice">1</li>
+                    <li class="answerChoice">2</li>
+                    <li class="answerChoice">3</li>
+                    <li class="answerChoice">4</li>
                 </ul>
                 <p class="feedback"></p>
             </div>
